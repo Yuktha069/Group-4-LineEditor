@@ -1,0 +1,32 @@
+
+Splint 3.1.2 --- 20 Feb 2018
+
+
+Command Line: Unrecognized file extension:
+                 ./line (assuming ./line is C source code)
+  warn when command line file does not have a recognized extension (Use
+  -fileextensions to inhibit warning)
+line:1:2: Invalid character (ascii: 127), skipping character
+  Code cannot be parsed.  For help on parse errors, see splint -help
+  parseerrors. (Use -syntax to inhibit warning)
+line:1:6: Invalid character (ascii: 2), skipping character
+line:1:7: Invalid character (ascii: 1), skipping character
+line:1:8: Invalid character (ascii: 1), skipping character
+line:1:9: Invalid character (ascii: 0), skipping character
+line:1:10: Invalid character (ascii: 0), skipping character
+line:1:11: Invalid character (ascii: 0), skipping character
+line:1:12: Invalid character (ascii: 0), skipping character
+line:1:13: Invalid character (ascii: 0), skipping character
+line:1:14: Invalid character (ascii: 0), skipping character
+line:1:15: Invalid character (ascii: 0), skipping character
+line:1:16: Invalid character (ascii: 0), skipping character
+line:1:17: Invalid character (ascii: 0), skipping character
+line:1:18: Invalid character (ascii: 3), skipping character
+line:1:19: Invalid character (ascii: 0), skipping character
+line:1:20: Parse Error: Non-function declaration: ELF :
+              int. (For help on parse errors, see splint -help parseerrors.)
+*** Cannot continue.
+splint report
+
+
+<https://teams.microsoft.com/l/message/19:QiPwAeeQLVcOsSt2aM9EhDBorDviQHnmbJUmQLKnQcI1@thread.tacv2/1672227645175?tenantId=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61&amp;groupId=09e4cf20-5c91-42a4-9567-5f1b78f2dee7&amp;parentMessageId=1672227645175&amp;teamName=project_group_4&amp;channelName=General&amp;createdTime=1672227645175&amp;allowXTenantAccess=false>
