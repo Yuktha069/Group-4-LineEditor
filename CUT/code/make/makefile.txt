@@ -1,0 +1,2 @@
+led:header.h led_client.c led_def.c
+        gcc -o line led_client.c led_def.c -I.

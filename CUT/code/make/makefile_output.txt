@@ -1,0 +1,19 @@
+
+enter a command add
+pear
+
+ 
+
+enter a command add
+banana
+
+ 
+
+enter a command display
+
+ 
+
+contents are
+pearbanana
+enter a command quit
+Do you want to save the text buffer(Yes=1/No=0):        0
