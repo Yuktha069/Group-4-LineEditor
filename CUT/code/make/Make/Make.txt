@@ -1,0 +1,19 @@
+CC = gcc
+CFLAGS  = -g -Wall
+
+default: client
+
+# To create the executable file count we need the object files
+client:  cilent_integrated.o
+        $(CC) $(CFLAGS) -o client cilent_integrated.o
+
+# To create the object file countwords.o, we need the source
+cilent_integrated.o:  header_integrated.h read_defination.c Add_save_switch_def.c cilent_integrated.c
+        $(CC) $(CFLAGS) -c cilent_integrated.c
+
+# To start over from scratch, type 'make clean'.  This
+# removes the executable file, as well as old .o object
+# files and *~ backup files:
+#
+clean:
+        $(RM) count *.o *~
